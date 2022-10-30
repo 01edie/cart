@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
+html{
+  font-size: 16px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+ 
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+.nav-center{
+  display:flex;
+  background-color: rgb(34, 34, 230);
+  height: 6rem;
+  color: white;
+  justify-content: space-between;
+  padding: 0 2rem;
+  align-items: center;
+}
+
+.nav-container{
+  display: flex;
+
+}
+.amount-container{
+  position: relative;
+  top:-10px;
+  left:-28px;
+  height: 20px;
+}
+.total-amount{
+  font-size: 1rem;
+  height: fit-content;
+  backdrop-filter: brightness(1.8);
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.cart{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.cart-section{
+  width: 50%;
+}
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer hr{
+  width: 50%;
+}
+.cart-total{
+  width: 50%;
+}
+.cart-total h4{
+  padding: 0 2.15rem;
+  margin-top: 0.5rem;
+   display: flex;
+   justify-content: space-between;
+}
+
+
+.cart-item img{
+  width:3rem;
+  height: 3rem;
+}
+
+.cart-item{
+  display: flex;
+  margin-top: 1rem;
+
+}
+
+.item-details{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-section{
+  display: flex;
+  align-items: center;
+}
+.item-features{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  gap:5px;
+
+}
+.right-section{
+  width: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap:5px;
+  align-items: center;
+}
+
+.btn1{
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn{
+  background-color: rgb(70, 70, 221);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 10px;
+  color: white;
+  padding: 5px;
+  width: 5rem;
+}
+
+.btn:hover{
+  background-color: rgb(42, 42, 236);
+}
+
+.clear-cart{
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: blueviolet;
+  border-radius: 10px;
+  margin: 10px 0;
+  color: white;
+}
+
+main{
+  position: relative;
+  min-height: 100vh;
+}
+.modal{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 20rem;
+  height: 10rem;
+  background-color: rgb(203, 181, 224);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 10px;
+  border-radius: 10px;
+}
+.modal .top{
+
+  display: flex;
+  justify-content: flex-end;
+}
+.modal .message{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+.modal .message .buttons{
+  display: flex;
+  gap: 1rem;
+}
